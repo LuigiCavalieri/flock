@@ -1,0 +1,265 @@
+/*
+ * Theme Name: Flock
+ * Description: Used to style the Gutenberg editor.
+ * ************************************************ */
+
+
+/******* Reset *******/
+
+h2, h3, h4, h5, h6, p, blockquote, 
+pre, table, tbody, tfoot, thead,
+figure, figcaption, dl, ol, ul, a, abbr, 
+acronym, address, big, cite, code, del, 
+dfn, em, img, ins, kbd, q, s, samp, small, 
+strike, strong, sub, sup, tt, var, b, u, 
+center, dt, dd, li, tr, th, td, time {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a, abbr, ins, u {
+    text-decoration: none;
+}
+
+blockquote {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/******* Typography *******/
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wp-block {
+    width: 95%;
+    max-width: 800px;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+h2, h3, h4, h5, h6,
+.wp-block-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+h2 {
+    font-size: 2.35rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4, h5, h6 {
+    font-size: 1.2rem;
+}
+
+p, ul, ol, dl, td {
+    line-height: 1.75em;
+}
+
+p, ul, ol, dl,
+blockquote,
+table {
+    margin-bottom: 1em;
+}
+
+ul, ol {
+    padding-left: 1.25em;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ul {
+    list-style-type: circle;
+}
+
+blockquote {
+    border-left: 0.2em solid #bbb;
+    font-style: italic;
+    padding-left: 1.2em;
+}
+
+figure {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+figcaption {
+    color: #999;
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-top: 0.65em;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    }
+    a code {
+        font-family: inherit;
+        font-style: italic;
+    }
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+small {
+    font-size: 0.875rem;
+}
+
+abbr, dfn {
+    cursor: help;
+    border-bottom: 0.125em dotted #bbb;
+    padding-bottom: 0.1em;
+}
+
+ins, u {
+    text-decoration: underline;
+}
+
+cite {
+    font-style: italic;
+    font-weight: 600;
+}
+
+q::before,
+q::after {
+  content: "\0022";
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+kbd {
+    background: #00000007;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    box-shadow: 0 0 0 1px #fafafa inset;
+    color: #4f4f4f;
+    font-size: 0.85rem;
+    padding: 0.2em 0.5em;
+}
+
+code {
+    background: #e9e9e9;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0.3em;
+    white-space: nowrap;
+}
+
+pre {
+    background: #f9f9f9;
+    border-radius: 0.45em;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    overflow-x: auto;
+    padding: 1.5em;
+    tab-size: 4;
+    text-shadow: #fafafa 0 1px;
+    }
+    pre code {
+        line-height: 1.35em;
+        white-space: pre;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    pre code,
+    h2 code,
+    h3 code,
+    h4 code,
+    h5 code,
+    h6 code,
+    a code {
+        background: none;
+        padding: 0;
+    }
+
+table {
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.5em;
+}
+
+th, dt {
+    font-weight: 600;
+}
+
+dd {
+    margin-bottom: 0.75em;
+}
+
+hr {
+    border: none;
+    margin: 1.8em auto 1.7em;
+    position: relative;
+    text-align: center;
+}
+hr:before {
+    content: "***";
+}

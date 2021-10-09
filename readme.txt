@@ -5,7 +5,7 @@ Tags: one-column, flexible-header, custom-colors, editor-style, custom-menu, cus
 Requires at least: 5.6
 Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -28,6 +28,10 @@ With or without a logo, Flock will allow you to give to your personal blog, iden
 
 
 == Changelog ==
+
+= 1.0.6 (9 October 2021) =
+
+Added the Theme URI and updated the screenshot.
 
 = 1.0.5 (2 September 2021) =
 
@@ -92,5 +96,5 @@ https://luigicavalieri.com/flock-logo/
 "Flock of Thoughts" by Luigi Cavalieri - CC BY-SA 4.0
 https://luigicavalieri.com/fi-in-flock-screenshot/
 
-"SiteTree Collects 100k Downloads" by Luigi Cavalieri - CC BY-SA 4.0
-https://luigicavalieri.com/blog/sitetree-100k-downloads/fi-100k-downloads/
+"The Permalinks Cascade Free for Everyone" by Luigi Cavalieri - CC BY-SA 4.0
+https://luigicavalieri.com/blog/the-permalinks-cascade-pro-goes-free/fi-tpc-free-for-everyone/

@@ -5,7 +5,7 @@ Tags: one-column, flexible-header, custom-colors, editor-style, custom-menu, cus
 Requires at least: 5.6
 Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -28,6 +28,11 @@ With or without a logo, Flock will allow you to give to your personal blog, iden
 
 
 == Changelog ==
+
+= 1.0.7 (16 November 2021) =
+
+* Fixed some layout inconsistencies that emerged when the footer included one or more widgets.
+* Fixed some bugs in the global JS script and upgraded the code to JS6.
 
 = 1.0.6 (9 October 2021) =
 

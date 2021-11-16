@@ -26,9 +26,11 @@ $is_sidebar_3_active = is_active_sidebar( 'footer_widgets_3' );
                 <?php endif; ?>
             </div>
         <?php endif; ?>
-        <?php get_template_part( 'template-parts/footer-navigation' ); ?>
-        <p id="copyrights">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. <span id="credits"><?php printf( esc_html__( 'Powered by %s.', 'flock' ), '<a href="https://wordpress.org/">WordPress</a>' ); ?></span>
-        </p>
+        <div id="footer-nav-container">
+            <?php get_template_part( 'template-parts/footer-navigation' ); ?>
+            <p id="copyrights">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. <span id="credits"><?php printf( esc_html__( 'Powered by %s.', 'flock' ), '<a href="https://wordpress.org/">WordPress</a>' ); ?></span>
+            </p>
+        </div>
     </footer>
     <?php wp_footer(); ?>
 </body>

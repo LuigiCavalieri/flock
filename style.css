@@ -1145,10 +1145,22 @@ textarea {
 
 /******* Site Footer *******/
 
+.footer-has-nav #footer-nav-container {
+    display: block;
+}
+.footer-has-nav #footer-navigation {
+    display: flex;
+    margin-bottom: 1.2em;
+}
+.footer-has-nav #footer-menu-list {
+    flex-grow: 2;
+}
+.footer-has-nav #copyrights {
+    text-align: center;
+}
+
 #site-footer {
     border-top: 1px solid #555;
-    display: flex;
-    flex-direction: row-reverse;
     font-size: 0.8rem;
     margin-top: var( --global--spacing--content-areas );
     }
@@ -1187,6 +1199,11 @@ textarea {
         color: #555;
         margin-top: 0;
     }
+
+#footer-nav-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 #footer-navigation {
     flex-grow: 2;
@@ -1230,19 +1247,6 @@ textarea {
     color: #777;
     padding-right: 1.25em;
 }
-
-#site-footer.footer-has-nav {
-    display: block;
-    }
-    .footer-has-nav #footer-navigation {
-        display: flex;
-    }
-    .footer-has-nav #footer-menu-list {
-        flex-grow: 2;
-    }
-    .footer-has-nav #copyrights {
-        text-align: center;
-    }
 
 
 /******* Media Queries *******/
